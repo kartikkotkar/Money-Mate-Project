@@ -49,7 +49,7 @@ function SignUp (){
             <form>
             <div className="signup-container">
 
-                <h2 className='text-center signup-text '>Good Budget</h2>
+                <h2 className='text-center signup-text '>Money Mate</h2>
                 <div>
                     <input
                         type='text'
@@ -121,7 +121,7 @@ function SignUp (){
                      className='button signup-btn'
                      onClick={signup}>
                     SignUp</button>
-                    <p className='text-center'>You have already account? 
+                    <p className='text-center'>You  already account? 
                     <Link to='/login' className='link-text'> Login</Link>
                     </p>
                 </div>

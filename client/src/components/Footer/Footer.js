@@ -7,11 +7,11 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className='footer-container'>
-      <h2 className='text-center p-5'>💸Good Budget💲</h2>
+      <h2 className='text-center p-5'>Money Mate</h2>
       <div className='container'>
         <div>
           <p className='About-content'>
-            💸Good Budget💲 helps to maintain the record of daily expenses.
+            ..Money Mate.. helps to maintain the record of daily expenses.
              The Expense Tracker app tracks all the
               expenses and helps the user to manage his/her
               expenses</p>

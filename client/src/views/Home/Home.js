@@ -10,13 +10,13 @@ export default function Home() {
     <>
       <Navbar />
       <div className='main-home-page-container'>
-        <h1 className='text-center title'>💸Good Budget💲</h1>
+        <h1 className='text-center title'>Money Mate</h1>
         <div className='main-container'>
           <div className='home-page-container'>
 
             <div className='app-information'>
 
-              <p className='home-text'>Good Budget helps to maintain the record of daily expenses.
+              <p className='home-text'>Money Mate helps to maintain the record of daily expenses.
                 The Expense Tracker app tracks all the
                 expenses and helps the user to manage his/her
                 expenses so that the user is the path of financial
