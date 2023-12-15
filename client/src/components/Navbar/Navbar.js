@@ -20,28 +20,28 @@ useEffect(()=>{
                     <div className="collapse navbar-collapse fs-5 " id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-auto ">
                             <li className="nav-item">
-                                <Link className="nav-link active fw-bold me-5 color bg-body-create" aria-current="page" to="/">Home</Link>
+                                <Link className="nav-link active fw-bold me-5 color bg-body-create" aria-current="page" to="/">🏠</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/my-transactions"> Transaction</Link>
+                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/my-transactions"> transaction</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/add-transactions">Add Transaction</Link>
+                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/add-transactions">add transaction</Link>
                             </li>
 
                             <li className="nav-item">
                                 <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/login">login</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/signup">SignUp</Link>
+                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/signup">signup</Link>
                             </li>
 
                         </ul>
                         <div className='logout fw-bold color'>
-                            Hello🖐,{user.name || "User!"}
+                            hello👍,{user.name || "user!"}
                             {user?.name ?
                             (<span className='logout-img'
-                                onClick={()=>{localStorage.removeItem('user'); window.location.href='/login'}}> Logout </span>)
+                                onClick={()=>{localStorage.removeItem('user'); window.location.href='/login'}}> logout </span>)
                                 :
                                 null}
                         </div>

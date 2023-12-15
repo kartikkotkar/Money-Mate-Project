@@ -18,9 +18,9 @@ function Footer() {
         </div>
         <div>
           <h3>Click Me👇</h3>
-          <p> <Link to="/" className='text-decoration'>Home</Link></p>
-          <p><Link to="/my-transactions" className='text-decoration'>My Transaction</Link></p>
-          <p><Link to="/add-transactions" className='text-decoration'>Add Transaction</Link></p>
+          <p> <Link to="/" className='text-decoration'>home</Link></p>
+          <p><Link to="/my-transactions" className='text-decoration'> transaction</Link></p>
+          <p><Link to="/add-transactions" className='text-decoration'>add transaction</Link></p>
 
         </div>
     
@@ -30,17 +30,13 @@ function Footer() {
           <p> <Link to="/signup" className='text-decoration'><i class="bi bi-unlock"></i> register</Link></p>
          
           <div className='d-flex '>
-            <div className='contact-icon' >
-              <Link to='https://peerlist.io/shwetapund'>
-              <img src="https://portfoilo-simple.netlify.app/images/peerlist.png" className='contact-img'/>
-              </Link>
-            </div>
+          
             <div className='contact-icon margin-left' >
-              <Link to='https://www.linkedin.com/in/shwetapund/'><img src={linkdinImg} className='contact-img'/></Link>
+              <Link to='https://www.linkedin.com/in/kartik-kotkar/'><img src={linkdinImg} className='contact-img'/></Link>
           
             </div>
             <div className='contact-icon margin-left' >
-             <Link to="https://github.com/shwetapund"> <img src={githubImg} className='contact-img'/></Link>
+             <Link to="https://github.com/kartikkotkar"> <img src={githubImg} className='contact-img'/></Link>
             </div>
           </div>
         </div>

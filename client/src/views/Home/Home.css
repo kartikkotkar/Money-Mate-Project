@@ -18,7 +18,7 @@ border-radius: 20px;
     font-size:25px;
     width: 700px;
     padding: 50px;
-    color:white;
+    color:rgb(0, 0, 0);
     /* box-shadow: 0 0 5px 5px #ccddff; */
     /* background-color: #c4ccdc6f; */
     border-radius: 10px;
@@ -43,13 +43,13 @@ margin-top: 80px;
     background-size: cover; */
   
 }
-.main-home-page-container{
+/*.main-home-page-container{
     background-image: linear-gradient(rgba(129, 126, 126, 0.9), rgba(75, 75, 75, 0.8)),
     url('https://img.freepik.com/premium-photo/woman-using-online-banking-when-checking-her-brokerage-account-tablet-compter_274689-18061.jpg?w=740');
 height: 700px;
 background-repeat: no-repeat;
 background-size: cover;
-}
+}*/
 .home-page-container{
  padding: 5px;
  display: flex;

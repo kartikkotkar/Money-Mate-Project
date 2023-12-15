@@ -22,9 +22,7 @@ export default function Home() {
                 expenses so that the user is the path of financial
                 stability</p>
             </div>
-            <div>
-              <img src="https://img.freepik.com/premium-photo/woman-using-online-banking-when-checking-her-brokerage-account-tablet-compter_274689-18061.jpg?w=740" className='home-img' />
-            </div>
+            
           </div>
         </div>
       </div>
