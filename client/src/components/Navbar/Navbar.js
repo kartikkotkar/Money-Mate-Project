@@ -20,20 +20,20 @@ useEffect(()=>{
                     <div className="collapse navbar-collapse fs-5 " id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-auto ">
                             <li className="nav-item">
-                                <Link className="nav-link active fw-bold me-5 color bg-body-create" aria-current="page" to="/">🏠</Link>
+                                <Link className="nav-link active fw-bold me-5 color bg-body-create" aria-current="page" to="/"><img src='https://cdn-icons-png.flaticon.com/128/5974/5974636.png' className='home-image'/></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/my-transactions"> transaction</Link>
+                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/my-transactions"> <img src='https://cdn-icons-png.flaticon.com/128/6463/6463504.png' className='transaction'/></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/add-transactions">add transaction</Link>
+                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/add-transactions"><img src='https://cdn-icons-png.flaticon.com/128/12261/12261818.png' className='add-transaction-image'/></Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/login"><img src='https://th.bing.com/th/id/R.f347e206bc8fb95d861593c366888b88?rik=zRgvjKcOY0g3cw&riu=http%3a%2f%2fcdn.xl.thumbs.canstockphoto.com%2fcanstock22184518.jpg&ehk=PyBTK4yRqJsiKrrYXzIEuM7YGDDEefo3RQvfbLDlRFc%3d&risl=&pid=ImgRaw&r=0' className='login-image'/></Link>
+                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/login"><img src='https://cdn-icons-png.flaticon.com/128/295/295128.png' className='logi-image'/></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/signup">signup</Link>
+                                <Link className="nav-link active fw-bold me-5 color" aria-current="page" to="/signup"><img src='https://cdn-icons-png.flaticon.com/128/9436/9436398.png' className='signup-image'/></Link>
                             </li>
 
                         </ul>
