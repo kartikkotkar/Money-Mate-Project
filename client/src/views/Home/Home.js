@@ -26,7 +26,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <h1 className='text-center mt-4'><img src="https://cdn-icons-png.flaticon.com/128/1304/1304126.png" className='feat-img'/> Features</h1>
+      <h1 className='text-center mt-4'> Features</h1>
       <div className='feat-container'>
         <div className='money-card-1'>
         <img src="https://as1.ftcdn.net/v2/jpg/01/07/99/30/1000_F_107993006_B9sFxS0N3IU6L4AnsPwG2AcgvtBtGzMH.jpg" className='money-img' />
