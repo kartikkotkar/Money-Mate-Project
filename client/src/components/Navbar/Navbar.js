@@ -13,7 +13,7 @@ useEffect(()=>{
         <>
             <nav className="navbar navbar-expand-lg bg-body-create">
                 <div className="container-fluid">
-                    <Link className="navbar-brand fw-bold fs-3 color-title bg-body-create" to="/">Money Mate</Link>
+                    <Link className="navbar-brand fw-bold fs-3 color-title bg-body-create" to="/">Money Mate<img src='https://cdn-icons-png.flaticon.com/128/5256/5256989.png' className='mony-mate-img'/></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

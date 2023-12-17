@@ -1,32 +1,90 @@
-.bg-body-create{
- background-color: #a1d5c6; 
-   
+.bg-body-create {
+    background-color: #a1d5c6;
+
 
 }
-.logout{
+
+.logout {
     cursor: pointer;
 }
 
-.color:hover{
-    color: white !important;
+.color:hover {
+    box-shadow: 0px 10px 10px 1xp white;
 }
-.home-image{
-    height: 50px;
-    width: 50px; 
-}
-.add-transaction-image{
+
+.mony-mate-img {
     height: 50px;
     width: 50px;
 }
-.transaction{
-    height: 60px;
-    width: 60px;
-}
-.logi-image{
+
+.home-image {
     height: 50px;
     width: 50px;
 }
-.signup-image{
+
+.add-transaction-image {
     height: 50px;
     width: 50px;
+}
+
+.transaction {
+    height: 50px;
+    width: 50px;
+}
+
+.logi-image {
+    height: 50px;
+    width: 50px;
+}
+
+.signup-image {
+    height: 50px;
+    width: 50px;
+}
+
+.home-image:hover {
+    box-shadow: 0 0 5px white, 0 0 15px white,
+        0 0 25px white, 0 0 100px white;
+    transform: scale(1.1);
+    border-radius: 50px;
+
+}
+
+.add-transaction-image:hover {
+    /* -webkit-box-reflect: below
+       1px linear-gradient(transparent, rgb(255, 255, 255));*/
+    box-shadow: 0 0 5px white, 0 0 15px white,
+        0 0 25px white, 0 0 100px white;
+    transform: scale(1.1);
+    border-radius: 50px;
+
+
+}
+
+.add-transaction-image:hover {
+    box-shadow: 0 0 5px white, 0 0 15px white,
+        0 0 25px white, 0 0 100px white;
+    transform: scale(1.1);
+    border-radius: 50px;
+}
+
+.transaction:hover {
+    box-shadow: 0 0 5px white, 0 0 15px white,
+        0 0 25px white, 0 0 100px white;
+    transform: scale(1.1);
+    border-radius: 50px;
+}
+
+.logi-image:hover {
+    box-shadow: 0 0 5px white, 0 0 15px white,
+        0 0 25px white, 0 0 100px white;
+    transform: scale(1.1);
+    border-radius: 50px;
+}
+
+.signup-image:hover {
+    box-shadow: 0 0 5px white, 0 0 15px white,
+    0 0 25px white, 0 0 100px white;
+transform: scale(1.1);
+border-radius: 50px;
 }
